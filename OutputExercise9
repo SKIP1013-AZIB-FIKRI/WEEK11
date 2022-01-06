@@ -1,0 +1,9 @@
+Input the investment amount: 200
+Input the rate of interest: 2
+Input number of years: 5
+Years    FutureValue
+1             204.04
+2             208.16
+3             212.36
+4             216.64
+5             221.02
