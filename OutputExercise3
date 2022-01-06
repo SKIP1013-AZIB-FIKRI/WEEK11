@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.Scanner;
+public class MethodEx3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Scanner in = new Scanner(System.in);
+	        System.out.print("Input the first number: ");
+	        double x = in.nextDouble();
+	        System.out.print("Input the Second number: ");
+	        double y = in.nextDouble();
+	        System.out.print("Input the third number: ");
+	        double z = in.nextDouble();
+	        System.out.print("Input the fourth number: ");
+	        double o = in.nextDouble();
+	        System.out.print("The smallest value is " + smallest(x, y, z, o)+"\n" );
+	    }
+
+	   public static double smallest(double x, double y, double z, double o)
+	    {
+	        return Math.min(Math.min(x, y), Math.min(z, o));
+	    }
+	}
